@@ -1,0 +1,44 @@
+.box {
+    width: 190px;
+    border: 10px solid rgb(240, 247, 240);
+    padding: 120px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 140%;
+    width: 320px;
+    height: 400px;
+    background: #2d0629;
+    color: #f8f1f1;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+body {
+    background-color: #170f19;
+    background-image: linear-gradient(315deg, #dcd2dc 0%, #1e061e 74%);
+}
+
+.info {
+    width: 100%;
+}
+
+.submit input {
+    width: 60%;
+    border-radius: 80px;
+    height: 30px;
+}
+
+.acc input {
+    width: 90%;
+    height: 20px
+}
+
+.marquee {
+    height: 20%;
+    color: rgb(248, 250, 252);
+}

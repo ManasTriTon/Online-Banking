@@ -1,0 +1,63 @@
+i_body {
+    background: url('');
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-style: bold;
+    font-family: 'Algerian';
+    font-size: 400%;
+}
+
+h4 {
+    font-style: normal;
+    font-family: 'Comic Sans MS';
+    font-size: 200%;
+}
+
+h5 {
+    font-style: normal;
+    font-family: 'Arial';
+    font-size: 120%;
+}
+
+.ihome {
+    float: left;
+    padding-left: 0%;
+    padding-right: 50%
+}
+
+.igold {
+    float: right;
+    padding-left: 50%;
+    padding-right: 0%;
+}
+
+.ivehicle {
+    float: left;
+    padding-left: 0%;
+    padding-right: 50%;
+}
+
+.ihimg {
+    float: right;
+    width: 100%;
+    height: 100%;
+    padding-left: 40%;
+}
+
+.igimg {
+    float: left;
+    border: 1cm;
+    width: 100%;
+    height: 100%;
+}
+
+.ivimg {
+    float: right;
+    border: 1cm;
+    width: 100%;
+    height: 100%;
+}

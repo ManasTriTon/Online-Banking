@@ -1,0 +1,340 @@
+* {
+    margin: 0px!important;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+h2 {
+    font-size: 100px;
+    text-align: center;
+    font-style: italic;
+    color: black;
+    padding-top: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 10px;
+}
+
+h5 {
+    font-size: 50px;
+    text-align: center;
+    font-style: italic;
+    color: black;
+    padding-top: 0px;
+}
+
+.content {
+    background-image: url("./hero.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.serv_box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.items {
+    width: 250px;
+    padding: 2px;
+    margin-bottom: 30px;
+    background-color: white;
+    margin-left: 1%;
+    border-width: 1px;
+    border-style: none;
+    padding-top: 10px;
+}
+
+.caption {
+    color: black;
+    padding: 0px 10px 10px;
+}
+
+.container {
+    padding-top: 30px;
+    padding-left: 1%;
+}
+
+
+/* .header {
+    background-color: white;
+    color: black;
+    min-height: 60px;
+} */
+
+.links {
+    float: right;
+    height: 30px;
+    padding-left: 20px;
+    padding-right: 30px;
+    font-size: 25px;
+    padding-top: 10px;
+    border-style: none;
+}
+
+
+/* .logo {
+    float: left;
+    color: black;
+    font-style: italic;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 0px;
+} */
+
+
+/* .left {
+    float: left;
+    font-style: italic;
+}
+
+.number {
+    float: right;
+    font-style: italic;
+} */
+
+footer .bottom {
+    background-color: rgb(214, 214, 214);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#copyright {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.head {
+    min-height: 65px;
+    background-color: #98bf64;
+    color: white;
+}
+
+.hyperlinks {
+    float: left;
+    color: white;
+    min-width: 95px;
+    text-align: center;
+    height: 45px;
+    padding-top: 20px;
+    /* padding-top: 1px;
+    padding-left: 20px;
+    padding-right: 30px; */
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.hyperlinks:hover {
+    background-color: rgb(255, 255, 255);
+    color: #000;
+}
+
+#GFG {
+    text-decoration: none;
+}
+
+
+/* .icons {
+    width: 50%;
+    display: block;
+    padding: 2px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    background-color: white;
+    float: left;
+    margin-left: 1%;
+    border-width: 1px;
+    border-style: none;
+} */
+
+
+/* 
+#line {
+    font-size: 30px;
+    color: black;
+} */
+
+.hyperlinks a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* #caption {
+    font-size: 30px;
+    padding-left: 30px;
+} */
+
+
+/* .A {
+    text-align: center;
+    font-size: 80px;
+    color: #48AAAD;
+} */
+
+
+/* h2 {
+    font-size: 30px;
+    color: black;
+}
+
+h4 {
+    font-size: 10px;
+    color: black;
+} */
+
+
+/* .icon {
+    padding-left: 8px;
+    text-align: center;
+    border-style: none;
+} */
+
+.caption {
+    padding-left: 20px;
+    text-align: center;
+}
+
+
+/* i_body {
+    background: url('');
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ih1 {
+    font-style: bold;
+    font-family: 'Algerian';
+    font-size: 400%;
+}
+
+ih4 {
+    font-style: normal;
+    font-family: 'Comic Sans MS';
+    font-size: 200%;
+}
+
+ih5 {
+    font-style: normal;
+    font-family: 'Arial';
+    font-size: 120%;
+}
+
+.ihome {
+    float: left;
+    padding-left: 0%;
+    padding-right: 50%
+}
+
+.igold {
+    float: right;
+    padding-left: 50%;
+    padding-right: 0%;
+}
+
+.ivehicle {
+    float: left;
+    padding-left: 0%;
+    padding-right: 50%;
+}
+
+.ihimg {
+    float: right;
+    width: 100%;
+    height: 100%;
+    padding-left: 40%;
+}
+
+.igimg {
+    float: left;
+    border: 1cm;
+    width: 100%;
+    height: 100%;
+}
+
+.ivimg {
+    float: right;
+    border: 1cm;
+    width: 100%;
+    height: 100%;
+}
+ */
+
+lbody {
+    background: url('');
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+lh1 {
+    font-style: bold;
+    font-family: 'Algerian';
+    font-size: 400%;
+}
+
+lh4 {
+    font-style: normal;
+    font-family: 'Comic Sans MS';
+    font-size: 200%;
+}
+
+lh5 {
+    font-style: normal;
+    font-family: 'Arial';
+    font-size: 120%;
+}
+
+.lhome {
+    float: left;
+    padding-left: 0%;
+    padding-right: 50%
+}
+
+.lgold {
+    float: right;
+    padding-left: 50%;
+    padding-right: 0%;
+}
+
+.lvehicle {
+    float: left;
+    padding-left: 0%;
+    padding-right: 50%;
+}
+
+.lhimg {
+    float: right;
+    width: 100%;
+    height: 100%;
+    padding-left: 40%;
+}
+
+.lgimg {
+    float: left;
+    border: 1cm;
+    width: 100%;
+    height: 100%;
+}
+
+.lvimg {
+    float: right;
+    border: 1cm;
+    width: 100%;
+    height: 100%;
+}
